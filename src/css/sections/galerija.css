@@ -1,0 +1,20 @@
+.galerija {
+}
+.galerija::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/src/assets/images/gelerija-overlay.jpg") no-repeat center
+    center/cover;
+  z-index: -1;
+}
+.galerija p {
+  margin-bottom: 1.5rem;
+}
+.galerija__inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.galerija__row {
+}

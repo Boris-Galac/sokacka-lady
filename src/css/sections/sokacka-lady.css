@@ -1,0 +1,45 @@
+.sokacka-lady {
+}
+.sokacka-lady__wrapper {
+}
+.sokacka-lady__heading {
+  text-align: right;
+}
+.sokacka-lady__heading {
+  text-align: right;
+  margin-bottom: 5rem;
+}
+.sokacka-lady__heading::after {
+  position: absolute;
+  content: attr(data-subheading);
+  right: 0;
+  text-align: right;
+  opacity: 0.2;
+  font-size: clamp(4rem, 7vw, 10rem);
+  width: max-content;
+  animation: h2-after 10s ease-in-out infinite alternate;
+}
+@keyframes h2-after {
+  from {
+    right: 0;
+    scale: 0.8;
+  }
+  to {
+    right: 20%;
+    scale: 1.1;
+  }
+}
+.sokacka-lady__content-wrapper {
+}
+.sokacka-lady__row:nth-child(1) {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.sokacka-lady .paragraph {
+  line-height: 190%;
+}
+.paragraph {
+  line-height: 160%;
+  color: #3f3f3f;
+}

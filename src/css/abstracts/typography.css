@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  font-family: "Tinos", serif;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+h2 {
+  color: #322d2b;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  margin-bottom: 3rem;
+}

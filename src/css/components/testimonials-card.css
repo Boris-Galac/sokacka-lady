@@ -1,0 +1,30 @@
+.testimonials__card {
+  background-color: #ffffff26;
+  border-radius: 10px;
+  outline: 2px solid white;
+  padding: 1.5rem;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  min-height: 350px;
+  max-height: 500px;
+}
+.testimonials__card p {
+  color: white;
+  letter-spacing: 1px;
+}
+.testimonials__name-wrapper {
+}
+.testimonials__name {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.last--paragraph {
+  -webkit-line-clamp: 15;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
