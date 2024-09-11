@@ -41,4 +41,9 @@
   .baguetteBox-button {
     display: block;
   }
+  .full-image img {
+    /* width: 90% !important; */
+    /* height: 70% !important; */
+    scale: 0.7 !important;
+  }
 }
