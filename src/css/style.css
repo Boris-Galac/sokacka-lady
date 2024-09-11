@@ -9,6 +9,8 @@
 @import "components/testimonials-card.css";
 @import "components/footer.css";
 /* pages */
+@import "pages/gallery.css";
+/* sections */
 @import "sections/hero.css";
 @import "sections/sokacka-lady.css";
 @import "sections/ponuda.css";
@@ -16,4 +18,5 @@
 @import "sections/testimonials.css";
 @import "sections/contact.css";
 /* utilities */
+@import "utilities/animations.css";
 @import "utilities/globals.css";

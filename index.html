@@ -38,28 +38,31 @@
         <div class="ham-line"></div>
         <div class="ham-line"></div>
       </button>
-      <!-- <nav class="nav desktop-nav" id="nav" aria-expanded="false">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
-        </ul>
-      </nav> -->
     </header>
     <main class="main">
       <nav class="nav mobile-nav" id="nav" aria-expanded="false">
         <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Naslovna</a>
+          </li>
+          <li class="nav__item">
+            <a href="#lady" class="nav__link">O Šokačkoj Lady</a>
+          </li>
+          <li class="nav__item">
+            <a href="#ponuda" class="nav__link">Što nudimo</a>
+          </li>
+          <li class="nav__item">
+            <a href="gallery.html" class="nav__link">Galerija</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Kontakt</a>
+          </li>
         </ul>
       </nav>
       <!-- hero section -->
       <section class="hero">
         <div class="container">
-          <div class="hero__content-box">
+          <div class="hero__content-box hidden-fade">
             <h1 class="hero__headline">
               <span>Šokačka Lady</span>
               <span>- Otkrijte Skriveni Dragulj Županje</span>
@@ -68,14 +71,16 @@
               Preko 100 godina stara ruralna kuća u središtu Županje, obnovljena
               za vaš savršen odmor ispunjen seoskim šarmom i baštinom.
             </p>
-            <a href="#" role="button" class="btn hero__cta-btn"
+            <a href="#contact" role="button" class="btn hero__cta-btn"
               >Osigurajte svoje mjesto
               <img src="/src/assets/icons/hero-cta-icon.svg" alt="arrow right"
             /></a>
           </div>
         </div>
         <div class="hero__socials">
-          <a href="#"
+          <a
+            target="_blank"
+            href="https://www.facebook.com/profile.php?id=100083205110083"
             ><img src="/src/assets/icons/fb-icon.svg" alt="facebook"
           /></a>
           <a href="#"
@@ -90,7 +95,7 @@
         /></a>
       </section>
       <!-- sokacka-lady section -->
-      <section class="sokacka-lady">
+      <section class="sokacka-lady" id="lady">
         <div class="container">
           <div class="sokacka-lady__wrapper">
             <h2 class="sokacka-lady__heading" data-subheading="Šokačka Lady">
@@ -99,10 +104,11 @@
             <div class="sokacka-lady__content-wrapper">
               <div class="sokacka-lady__row">
                 <img
+                  class="hidden-left"
                   src="/src/assets/images/sokacka-lady-img-1.jpg"
                   alt="sokacka lady"
                 />
-                <p class="paragraph">
+                <p class="paragraph hidden-left" style="animation-delay: 0.15s">
                   Kuća za odmor "Šokačka Lady" u Županji, koju su otvorili Kata
                   i Marko Maroševac, pruža autentično iskustvo nekadašnje
                   Šokadije, nudeći gostima priliku da se povežu s tradicijom i
@@ -116,6 +122,7 @@
               </div>
               <div class="sokacka-lady__row">
                 <img
+                  class="hidden-right"
                   src="/src/assets/images/sokacka-lady-img.jpg"
                   alt="sokacka lady"
                 />
@@ -125,7 +132,7 @@
         </div>
       </section>
       <!-- ponuda section -->
-      <section class="ponuda">
+      <section class="ponuda" id="ponuda">
         <div class="container">
           <h2 class="ponuda__heading">Što Šokačka Lady nudi</h2>
           <div class="ponuda__wrapper">
@@ -162,35 +169,50 @@
             />
             <div class="ponuda__cards">
               <div class="row">
-                <span class="ponuda__mini-card">
+                <span
+                  class="ponuda__mini-card hidden-fade"
+                  style="animation-delay: 0.1s"
+                >
                   <img
                     src="/src/assets/icons/ponuda-icons/family-icon.svg"
                     aria-hidden="true"
                   />
                   <span>Obiteljske sobe</span>
                 </span>
-                <span class="ponuda__mini-card">
+                <span
+                  class="ponuda__mini-card hidden-fade"
+                  style="animation-delay: 0.2s"
+                >
                   <img
                     src="/src/assets/icons/ponuda-icons/material-symbols-light_house-outline-1.svg"
                     aria-hidden="true"
                   />
                   <span>Cijela kuća za odmor</span>
                 </span>
-                <span class="ponuda__mini-card">
+                <span
+                  class="ponuda__mini-card hidden-fade"
+                  style="animation-delay: 0.3s"
+                >
                   <img
                     src="/src/assets/icons/ponuda-icons/iconoir_parking.svg"
                     aria-hidden="true"
                   />
                   <span>Besplatni parking</span>
                 </span>
-                <span class="ponuda__mini-card">
+                <span
+                  class="ponuda__mini-card hidden-fade"
+                  style="animation-delay: 0.4s"
+                >
                   <img
                     src="/src/assets/icons/ponuda-icons/pet-icon.svg"
                     aria-hidden="true"
                   />
                   <span>Pet friendly</span>
                 </span>
-                <span class="ponuda__mini-card">
+                <span
+                  class="ponuda__mini-card hidden-fade"
+                  style="animation-delay: 0.5s"
+                >
                   <img
                     src="/src/assets/icons/ponuda-icons/kitchen-icon.svg"
                     aria-hidden="true"
@@ -199,35 +221,50 @@
                 </span>
               </div>
               <div class="row">
-                <span class="ponuda__mini-card">
+                <span
+                  class="ponuda__mini-card hidden-fade"
+                  style="animation-delay: 0.6s"
+                >
                   <img
                     src="/src/assets/icons/ponuda-icons/wifi-icon.svg"
                     aria-hidden="true"
                   />
                   <span>Besplatan Wi-Fi</span>
                 </span>
-                <span class="ponuda__mini-card">
+                <span
+                  class="ponuda__mini-card hidden-fade"
+                  style="animation-delay: 0.7s"
+                >
                   <img
                     src="/src/assets/icons/ponuda-icons/material-symbols-light_house-outline.svg"
                     aria-hidden="true"
                   />
                   <span>100m² veličina</span>
                 </span>
-                <span class="ponuda__mini-card">
+                <span
+                  class="ponuda__mini-card hidden-fade"
+                  style="animation-delay: 0.8s"
+                >
                   <img
                     src="/src/assets/icons/ponuda-icons/terace-icon.svg"
                     aria-hidden="true"
                   />
                   <span>Terasa</span>
                 </span>
-                <span class="ponuda__mini-card">
+                <span
+                  class="ponuda__mini-card hidden-fade"
+                  style="animation-delay: 0.9s"
+                >
                   <img
                     src="/src/assets/icons/ponuda-icons/klima-icon.svg"
                     aria-hidden="true"
                   />
                   <span>Klima uređaj</span>
                 </span>
-                <span class="ponuda__mini-card">
+                <span
+                  class="ponuda__mini-card hidden-fade"
+                  style="animation-delay: 1s"
+                >
                   <img
                     src="/src/assets/icons/ponuda-icons/batch-icon.svg"
                     aria-hidden="true"
@@ -237,7 +274,7 @@
               </div>
             </div>
             <div class="ponuda__info-wrapper">
-              <div class="ponuda__info-row">
+              <div class="ponuda__info-row hidden-right">
                 <p class="paragraph">
                   Smještena u Županji, Kuća za odmor "Šokačka lady" nudi
                   klimatiziran smještaj s terasom i besplatnim WiFi-jem. Objekt
@@ -245,7 +282,7 @@
                 </p>
               </div>
               <div class="ponuda__info-inner-wrapper">
-                <div class="ponuda__info-row">
+                <div class="ponuda__info-row hidden-left">
                   <ul>
                     <li>👉 3 spavaće sobe</li>
                     <li>👉 1 kupaonicu</li>
@@ -256,7 +293,10 @@
                     <li>👉 terasu s pogledom na vrt</li>
                   </ul>
                 </div>
-                <div class="ponuda__info-row">
+                <div
+                  class="ponuda__info-row hidden-left"
+                  style="animation-delay: 0.2s"
+                >
                   <ul>
                     <li>👉 Smještaj je namijenjen nepušačima.</li>
                     <li>👉 U sklopu objekta nalazi se bar.</li>
@@ -278,7 +318,7 @@
           <div class="galerija__wrapper">
             <h2 class="galerija__heading">Galerija slika</h2>
             <div class="galerija__inner-wrapper">
-              <div class="galerija__row">
+              <div class="galerija__row hidden-left">
                 <p class="paragraph">
                   Zakoračite u našu virtualnu galeriju i istražite slike koje
                   prikazuju ljepotu i šarm Kuće za odmor "Šokačka lady". Svaka
@@ -288,14 +328,14 @@
                   kadar. Neka vam ove slike pruže uvid u jedinstveni doživljaj
                   koji vas očekuje.
                 </p>
-                <a href="#" class="btn galerija-btn" role="button"
+                <a href="gallery.html" class="btn galerija-btn" role="button"
                   >Posjetite galeriju
                   <img
                     src="/src/assets/icons/arrow-right-white-icon.svg"
                     aria-hidden="true"
                 /></a>
               </div>
-              <div class="galerija__row">
+              <div class="galerija__row hidden-right">
                 <img src="/src/assets/images/galerija-img.png" alt="galerija" />
               </div>
             </div>
@@ -388,7 +428,7 @@
         />
       </section>
       <!-- contact section -->
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="container">
           <div class="contact__wrapper">
             <h2 class="contact-heading">Kontakt</h2>

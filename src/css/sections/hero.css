@@ -3,6 +3,7 @@
   width: 100%;
   display: grid;
   place-items: center;
+  overflow: hidden;
 }
 .hero::before {
   content: "";
@@ -11,6 +12,15 @@
     center/cover;
   inset: 0;
   z-index: -1;
+  animation: hero-overlay 15s ease-in-out infinite alternate;
+}
+@keyframes hero-overlay {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.6;
+  }
 }
 .hero__content-box {
   background-color: #0000005e;

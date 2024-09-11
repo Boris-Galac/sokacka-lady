@@ -43,3 +43,22 @@
   line-height: 160%;
   color: #3f3f3f;
 }
+
+@media (min-width: 1000px) {
+  .sokacka-lady__row:nth-child(1) p {
+    order: 1;
+  }
+  .sokacka-lady__row:nth-child(1) img {
+    order: 2;
+  }
+  .sokacka-lady__row:nth-child(2) img {
+    margin-left: auto;
+  }
+  .sokacka-lady__content-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sokacka-lady__content-wrapper > * {
+    width: 70%;
+  }
+}

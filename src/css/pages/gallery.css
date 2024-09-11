@@ -1,0 +1,44 @@
+.gallery-header {
+  padding: 8px;
+}
+.gallery-header .povratak-btn {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-right: 0.5rem;
+}
+.povratak-btn img {
+  width: 10px;
+}
+.galerija-section__wrapper {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.galerija-section__wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.baguetteBox-button {
+  display: none;
+}
+.full-image img {
+  width: 90% !important;
+}
+@media (min-width: 1000px) {
+  .gallery-header .povratak-btn {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 20px;
+    margin-right: 1.5rem;
+  }
+  .povratak-btn img {
+    width: 10px;
+  }
+  .baguetteBox-button {
+    display: block;
+  }
+}

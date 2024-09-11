@@ -112,3 +112,12 @@
 }
 .ponuda p {
 }
+@media (min-width: 1000px) {
+  .ponuda__info-inner-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ponuda__info-inner-wrapper > * {
+    flex: 1;
+  }
+}

@@ -57,3 +57,11 @@
   border-radius: 10px;
   outline: 2px solid lightgray;
 }
+@media (min-width: 1000px) {
+  .contact__inner-wrapper {
+    flex-direction: row;
+  }
+  .contact__inner-wrapper > * {
+    flex: 1;
+  }
+}
